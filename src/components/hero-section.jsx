@@ -23,7 +23,7 @@ export default function HeroSection() {
       id="hero" 
       className="relative h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: `url(${isMobile ? '/public/backgroundR.png' : '/public/background2.jpg'})`,
+        backgroundImage: `url(${isMobile ? '/back/backCel.png' : '/back/backPc.webp'})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}

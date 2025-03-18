@@ -31,12 +31,12 @@ export default function Navbar() {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <div className="relative h-16 w-16 md:h-20 md:w-20">
-            <Image 
-              src="/public/IconHotel.svg" 
-              alt="Logo del Hotel Rincón de Playa"
-              fill
-              className="object-contain"
-            />
+          <Image 
+            src="/icon/IconHotel.ico" 
+            alt="Logo del Hotel Rincón de Playa"
+            fill
+            className="object-contain"
+          />
           </div>
           <h1 className="hidden md:block text-white font-bold text-xl ml-4">Hotel Rincón de Playa</h1>
         </div>

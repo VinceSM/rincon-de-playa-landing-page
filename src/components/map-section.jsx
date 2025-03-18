@@ -31,12 +31,12 @@ export default function MapSection() {
           className="max-w-4xl mx-auto overflow-hidden rounded-lg shadow-lg"
         >
           <div className="relative h-[400px] w-full">
-            <Image
-              src="/public/map.png"
-              alt="Ubicación del Hotel Rincón de Playa"
-              fill
-              className="object-cover"
-            />
+          <Image
+            src="/mapa/map.png"
+            alt="Ubicación del Hotel Rincón de Playa"
+            fill
+            className="object-cover"
+          />
           </div>
         </motion.div>
       </div>

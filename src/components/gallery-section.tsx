@@ -20,12 +20,12 @@ const galleryCategories = [
     title: "Exteriores",
     images: [
       {
-        src: "/public/exterior1.jpg",
+        src: "/exterior/exterior1.jpg", // Ruta corregida
         alt: "Vista exterior del hotel",
         caption: "Vista exterior del hotel"
       },
       {
-        src: "/public/exterior2.png",
+        src: "/exterior/exterior2.png", // Ruta corregida
         alt: "Recepción 24hs",
         caption: "Recepcion 24hs"
       }
@@ -36,12 +36,12 @@ const galleryCategories = [
     title: "Interiores",
     images: [
       {
-        src: "/public/lobbyRecepcion.png",
+        src: "/interiorLobby/lobbyRecepcion.png", // Ruta corregida
         alt: "Lobby del hotel",
         caption: "Lobby Recepción"
       },
       {
-        src: "/public/lobbyDesayuno.png",
+        src: "/interiorLobby/lobbyDesayuno.png", // Ruta corregida
         alt: "Lobby decorado",
         caption: "Lobby Desayuno"
       }
@@ -52,12 +52,12 @@ const galleryCategories = [
     title: "Desayuno Buffet",
     images: [
       {
-        src: "/public/breakfast2.jpg",
+        src: "/breakfast/breakfast2.png", // Ruta corregida
         alt: "Desayuno buffet del hotel",
         caption: "Café, leche, cereales, cacao, yogur, jugo, variedades de té"
       },
       {
-        src: "/public/breakfast1.jpg",
+        src: "/breakfast/breakfast1.png", // Ruta corregida
         alt: "Variedad en el desayuno",
         caption: "Frutas, mermeladas, budin, cookies, productos de panadería, galletas de arroz"
       }
@@ -69,17 +69,17 @@ const galleryCategories = [
     subtitle: "Planta Baja y Primer Piso",
     images: [
       {
-        src: "/public/room1.png",
+        src: "/rooms/room1.png", // Ruta corregida
         alt: "Habitación Cuádruple Familiar",
         caption: "Habitación Cuádruple Familiar"
       },
       {
-        src: "/public/room2.png",
+        src: "/rooms/room2.png", // Ruta corregida
         alt: "Habitación Doble Matrimonial",
         caption: "Habitación Doble Matrimonial"
       },
       {
-        src: "/public/room3.jpg",
+        src: "/rooms/room3.png", // Ruta corregida
         alt: "Habitación Doble Individual",
         caption: "Habitación Doble Individual"
       }
@@ -147,7 +147,7 @@ export default function GallerySection() {
                       onClick={() => openLightbox(image)}
                     >
                       <Image
-                        src={image.src || "/placeholder.svg"}
+                        src={image.src || "/placeholder.svg"} // Ruta corregida
                         alt={image.alt || "Imagen de galería"}
                         fill
                         className="object-cover transition-transform duration-500 hover:scale-110"
@@ -183,7 +183,7 @@ export default function GallerySection() {
           >
             <div className="relative h-[70vh]">
               <Image
-                src={selectedImage.src || "/placeholder.svg"}
+                src={selectedImage.src || "/placeholder.svg"} // Ruta corregida
                 alt={selectedImage.alt || "Imagen de galería"}
                 fill
                 className="object-contain"

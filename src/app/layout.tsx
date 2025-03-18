@@ -16,14 +16,14 @@ export const metadata: Metadata = {
   title: 'Hotel Rincón de Playa',
   description: 'Tu refugio perfecto a solo 250 metros de la playa en Miramar',
   icons: {
-    icon: [
+  icon: [
       {
-        url: '../app/IconHotel.ico',
+        url: '/icon/IconHotel.ico',
         sizes: '16x16',
         type: 'image/x-icon',
       },
       {
-        url: '../app/IconHotel.png',
+        url: '/icon/IconHotel.png',
         sizes: '192x192',
         type: 'image/png',
       },
