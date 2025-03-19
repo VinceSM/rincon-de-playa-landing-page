@@ -62,7 +62,7 @@ export default function HeroSection() {
             Bienvenidos al Hotel Rincón de Playa
           </h1>
           <p className="text-xl md:text-2xl text-white mb-8 drop-shadow-lg">
-            Tu refugio perfecto a solo 250 metros de la playa en Miramar
+            Miramar - Provincia de Buenos Aires <br /> Tus vacaciones junto al mar!!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
