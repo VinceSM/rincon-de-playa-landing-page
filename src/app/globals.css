@@ -1,7 +1,20 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
-html {
+html,
+body {
   scroll-behavior: smooth;
+  overflow-x: hidden; /* Previene el scroll horizontal */
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Aseguramos que todos los contenedores no desborden */
+.container {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
 }
 
 @keyframes fadeIn {
@@ -18,7 +31,8 @@ html {
 }
 
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -29,3 +43,28 @@ html {
 .animate-bounce {
   animation: bounce 2s infinite;
 }
+
+/* Ajuste para eliminar bordes blancos en móvil */
+@media (max-width: 768px) {
+  body,
+  html,
+  #__next,
+  main {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  section {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
