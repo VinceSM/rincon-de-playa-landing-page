@@ -38,10 +38,10 @@ export default function HeroSection() {
           className="max-w-3xl mx-auto"
         >
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-            Bienvenidos al Hotel Rincón de Playa
+            Bienvenidos a Hotel Rincón de Playa
           </h1>
           <p className="text-xl md:text-2xl text-white mb-8">
-            Tu refugio perfecto a solo 250 metros de la playa en Miramar
+            Tus vacaciones junto al mar!! <br /> Miramar - Provincia de Buenos Aires
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

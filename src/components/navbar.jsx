@@ -32,7 +32,7 @@ export default function Navbar() {
         <div className="flex items-center">
           <div className="relative h-16 w-16 md:h-20 md:w-20">
           <Image 
-            src="/icon/IconHotel.ico" 
+            src="/icon/IconHotel_white.png" 
             alt="Logo del Hotel Rincón de Playa"
             fill
             className="object-contain"
